@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <caption> liste des personnes …</caption>
+        
+    <table border=1>
+        <tr><th colspan="3">entete</th></tr>
+        <tr> 
+        <td> Sara</td>
+        <td> 22</td>
+        <td>Tunisie</td>
+        </tr>
+        <tr>
+        <td> Carmen</td>
+        <td> 18 </td>
+        <td> Espagne</td>
+        </tr>
+        </table>
+        <audio controls autoplay muted>
+            <source src="horse.ogg" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+          <video width="320" height="240" controls muted  poster="c:\Users\ASUS\Pictures\Capture d’écran 2022-08-10 023103.png">
+            <source src=""https://www.w3schools.com/html/mov_bbb.mp4 type="video/mp4">
+            <source src="https://www.w3schools.com/html/mov_bbb.ogg" type="video/ogg">
+          Your browser dos not support the video tag.
+          </video>
+          <form action=“action.php” method=“get“ name=“f1”>
+        </form>
+        <label for="champ1">NOM:</label>
+        <input type="text" name="champ1" id="champ1" />
+<br/>
+        <label for="champ2">MOT DE PASSE:</label>
+        <input type="password" name="champ2" id="champ2" />
+        <textarea rows="8" cols="50"></textarea>
+        <br/>
+    <input type="file" name="nom"/>
+    <br/>
+    <input type="radio" name="age" value="moins15" id= "moins15"/>
+ <label for="moins15">Moins de 15 ans</label><br/><input type="radio" name="age" value="medium15-25" id ="medium15-25"  checked="checked"> 
+<label for="medium15-25">15-25 ans</label><br/>
+
+<br/>
+<select name="couleur_yeux" size=3 multiple="multiple" >
+  <option value="bleus">Bleus</option>
+  <option value="bruns" selected="selected">Bruns</option>
+  <option value="verts">Verts</option>
+  <option value="noisettes">Noisettes</option>
+  <option value="red">red</option>
+  <option value="black">black</option>
+  </select>
+  <br/>
+  <input type="button" name="add" value="Ajouter" onclick="addition();" >
+  <button type="button" name="mult" onclick="multiplication();"> <b>Multiplier</b> 
+  </button>
+  
+</body>
+</html>
